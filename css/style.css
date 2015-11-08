@@ -1,0 +1,23 @@
+@import url(../css/normalize.css);
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 800px; }
+
+nav {
+  position: absolute;
+  right: 0;
+  margin-top: -20px; }
+  nav li {
+    display: inline-block; }
+    nav li a {
+      text-decoration: none;
+      display: block;
+      color: #666; }
+      nav li a:hover {
+        color: #000; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
