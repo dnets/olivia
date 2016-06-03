@@ -1,0 +1,18 @@
+@import "_variables";
+
+@mixin small {
+  @media #{$breakpoint-small} {
+    @content;
+  }
+}
+@mixin medium {
+  @media #{$breakpoint-medium} {
+    @content;
+  }
+}
+
+@mixin large {
+  @media #{$breakpoint-large} {
+    @content;
+  }
+}

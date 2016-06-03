@@ -1,0 +1,203 @@
+@import 'mixins.scss';
+@import 'colors.scss';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@mixin wrapify ($bg-img:null) {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  @if ($bg-img) { background: $white url($bg-img) 0 0 no-repeat; }
+  background-size: cover;
+  overflow: auto;
+  @content;
+}
+
+@mixin wideify {
+  @include large {
+    width: 1170px;
+    margin: 0 auto;
+    @content;
+  }
+}
+
+.img-rwd {
+  width: auto;
+  max-width: 100%;
+  height: auto !important;
+}
+@font
+
+body {
+  background: $white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header_wrap {
+  position:relative;
+  @include wrapify('../img/header-bg.png') {
+    header {
+      @include wideify;
+      @include large { height: 992px; }
+      color: $white;
+      padding-top: 35px;
+      nav {
+        margin-top: 18px;
+        padding-left: 150px;
+        line-height: 40px;
+        ul {
+          margin-right: -40px;
+          list-style: none;
+          li {
+            display: inline;
+            a {
+              color: $white;
+              padding: 8px 15px;
+              text-transform: uppercase;
+              text-decoration: none;
+              border-radius: 20px;
+              transition: background-color, 0.2s, ease-in-out;
+              &:hover {
+                background: $violet;
+              }
+            }
+          }
+        }
+      }
+      .header_app { padding-top: 80px; }
+      .hello {
+        padding-top: 54px;
+        h1 {
+          font-size: 3.5em;
+          text-shadow: 2px 2px 1px #624795;
+        }
+        p { line-height: 1.5em; }
+      }
+      .phones { margin-left: -40px; }
+      .dlbtns { padding-top: 30px; }
+      .download {
+        margin-top: 50px;
+        text-transform: uppercase;
+        .googleplay { margin-left: 10px; }
+      }
+    }
+  }
+}
+
+.features_wrap {
+  @include wrapify('../img/features-bg.png') {
+    @include large { height: 840px; }
+    .features {
+      h1 { text-align: center; }
+      @include wideify;
+      color: $dark-gray;
+      }
+    .features_clickies {
+      padding: 10px;
+      text-align: center;
+      p {
+        text-align: justify;
+        padding-top: 10px;
+      }
+    }
+  }
+  h2 { text-align: center; }
+}
+
+.checkout_wrap {
+  @include wrapify('../img/checkout-bg.jpg') {
+    .checkout {
+      @include wideify;
+      @include large { height: 805px; }
+      color: $white;
+      #phone_hand {
+        position: absolute;
+        width: auto;
+      }
+    }
+  }
+}
+
+.screenshots_wrap {
+  @include wrapify('../img/screenshot-bg.jpg') {
+    .screenshots {
+      @include wideify;
+      @include large {
+        height: 900px;
+        img {
+          display: inline;
+          max-width: 100%;
+          li {
+            margin: 0 auto;
+          }
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+.testimonial_wrap {
+  @include wrapify('../img/testimonial-bg.jpg') {
+    .testimonial {
+      @include wideify;
+      @include large {
+      height: 520px;
+      }
+    }
+  }
+}
+
+.support_wrap {
+  @include wrapify(null) {
+    .support {
+      @include wideify;
+      @include large { height: 528px; }
+      .support_description:nth-child(odd) {
+        text-align: right;
+      }
+      .contact_icons {
+        i { padding: 15px 5px; }
+        a {
+          color: $dark-gray;
+          &:hover {
+            color: $violet;
+          }
+        }
+      }
+    }
+  }
+}
+
+.newsletter_wrap {
+  @include wrapify('../img/newsletter-bg.jpg') {
+    .newsletter {
+      @include wideify;
+      @include large { height: 528px; }
+    }
+  }
+}
+
+.blog_wrap {
+  @include wrapify('../img/blog-bg.jpg') {
+    .blog {
+      @include wideify;
+      @include large { height: 886px; }
+    }
+  }
+}
+
+.footer_wrap {
+  @include wrapify('../img/footer-bg.jpg') {
+    footer {
+      @include wideify;
+      @include large { height: 520px; }
+      ul {
+        list-style:none;
+        li {
+          display:inline;
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}

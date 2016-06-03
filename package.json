@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "templates for web development",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.9.12",
     "gulp": "^3.9.0",

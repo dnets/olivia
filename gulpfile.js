@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
 var wiredep = require('wiredep').stream;
 var jslint = require('gulp-jslint');
+var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
   scripts: ['js/**/*.js'],
@@ -10,14 +11,19 @@ var paths = {
     dist: ['/.dist']
 };
 
+var autoprefixerOptions = {
+  browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
+};
+
 gulp.task('sass', function () {
-      gulp.src('scss/style.scss')
-                .pipe(sass({includePaths: ['scss']}))
-                        .pipe(gulp.dest('css'));
+  gulp.src('scss/style.scss')
+  .pipe(sass({includePaths: ['scss']}).on('error', sass.logError))
+  .pipe(autoprefixer(autoprefixerOptions))
+  .pipe(gulp.dest('css'));
 });
 
 gulp.task('browser-sync', function() {
-      browserSync.init(['css/**/*.css', 'js/**/*.js', './**/*.html'], {
+      browserSync.init(['css/*.css', 'js/**/*.js', './**/*.html'], {
                 server: {
                               baseDir: './'
                                         }
