@@ -8,6 +8,54 @@ body {
   background-size: cover;
 }
 
+.navbar-default {
+  /* background-image: url('../img/footer-bg.jpg'); */
+  color: $white;
+  background: $dark-purple;
+  border: none;
+  .navbar-header {
+    img {
+      position: relative;
+      top: -5px;
+      width: 78px;
+      height: 30px;
+    }
+  }
+  .navbar-nav li a {
+    color: $white;
+    background: $dark-purple;
+    text-transform: uppercase;
+    transition: background 0.5s;
+    &:hover {
+      color: $white;
+      background: $violet;
+    }
+  }
+  .navbar-toggle {
+    border-color: $white;
+    .icon-bar {
+      background-color: $white;
+      &:hover {
+        background-color: $dark-gray;
+      }
+    }
+    &:hover {
+      background-color: $white;
+      .icon-bar {
+        background-color: $dark-gray;
+      }
+    }
+    &:focus {
+      background-color: $white;
+      border: none;
+      .icon-bar {
+      border: none;
+        background-color: $dark-gray;
+      }
+    }
+  }
+}
+
 header {
   background-image: url('../img/header-bg.png');
   color: $white;
@@ -61,8 +109,8 @@ header {
     margin-top: 70px;
     text-transform: uppercase;
     h2 {
-    font-size: 2.0em;
-    font-weight: bold;
+      font-size: 2.0em;
+      font-weight: bold;
     }
   }
 }
@@ -99,6 +147,7 @@ header {
 .checkout_wrap {
   background-image: url('../img/checkout-bg.jpg');
   color: $white;
+  height: 670px;
   .checkout {
     h4 {
       font-weight: bold;
@@ -114,7 +163,12 @@ header {
       padding-top: 5px;
     }
     #phone_hand {
+      position: relative;
       width: 100%;
+      @include col-md {
+        top: 95px;
+      }
+
     }
   }
 }
@@ -130,10 +184,7 @@ header {
       padding: 105px 40px;
       text-align: center;
     }
-    #screenshot-slider-lg
-    {
-      text-align: center;
-    }
+    #screenshot-slider-lg { text-align: center; }
     .lSSlideOuter .lSPager.lSpg > li a {
       border: 2px solid $dark-purple;
       border-radius: 50%;
@@ -167,7 +218,7 @@ header {
         margin-left: -20px;
       }
       .quote {
-        position: absolute;
+        position: relative;
         background: url('../img/olivia_quotes.png') no-repeat 0 0;
         /* top: -10px; */
         left: -25px;
@@ -185,7 +236,7 @@ header {
     }
     .testimonial-name {
       position: relative;
-      top: 20px;
+      top: 10px;
     }
     #testimonial-slider {
       width: 100%;
@@ -347,10 +398,10 @@ header {
 
 .blog_wrap {
   background-image: url('../img/blog-bg.jpg');
-  height: 800px;
+  height: 100%;
+  padding-bottom: 50px;
   .blog {
     #blog-slider {
-    height: 600px;
     color: $dark-gray;
     }
     h2 {
@@ -373,7 +424,7 @@ header {
           font-size: 40px;
           font-weight: bold;
         }
-        .header-m, header-y {
+        .header-m, .header-y {
           font-size: 15px;
         }
         .tick {
@@ -399,11 +450,9 @@ header {
           font-weight: bold;
         }
         a {
-          transition: color 0.5s;
           color: $dark-gray;
-          i {
-            padding-right: 10px;
-          }
+          transition: color 0.5s;
+          i { padding-right: 10px; }
           &:hover {
             color: $violet;
             text-decoration: none;
@@ -411,12 +460,8 @@ header {
         }
       }
       &:hover {
-        .tick {
-          border-left-color: $blue;
-        }
-        .blog-header {
-          background: $blue;
-        }
+        .tick { border-left-color: $blue; }
+        .blog-header { background: $blue; }
       }
     }
   }
@@ -434,8 +479,9 @@ header {
     }
     .text {
       position: relative;
-      left: 100px;
-      width: 900px;
+      /* left: 100px; */
+      width: 80%;
+      margin: 0 auto;
       p { margin-bottom: 40px; }
     }
     color: $white;
@@ -475,26 +521,27 @@ header {
         background: $violet;
       }
     }
-    .footer-icon {
-      display: inline-block;
-      margin-top: 10px;
-      margin-bottom: 25px;
-      margin-right: 20px;
-      background: none;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      transition: background 0.5s;
+    a {
+      .footer-icon {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-right: 20px;
+        background: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transition: background 0.5s;
+      }
       &:hover {
-        background: $dark-purple;
+        text-decoration: none;
+        .footer-icon { background: $dark-purple; }
       }
-      a {
-        position: relative;
-        top: 15px;
-        i {
-          color: $white;
-        }
-      }
+      i {
+      position: relative;
+      top: 15px;
+      color: $white;
+    }
     }
     .footer-links {
       margin-bottom: 30px;
@@ -514,5 +561,191 @@ header {
         }
       }
     }
+  } /* footer */
+} /* .footer-wrap */
+
+@include col-xs {
+  .header_app { padding-top: 0 !important; }
+  header {
+    padding: 80px 0;
+    text-align: center;
+    .phones {
+      margin: 0 auto;
+      width: 50%;
+    }
+    .hello {
+      padding-top: 10px;
+      h1 { font-size: 2.5em; }
+      p { padding-top: 30px; }
+    }
+    .download { margin-top: 100px; }
+    .dlbtns { padding-top: 10px; }
+    .appstore, .googleplay {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
   }
-}
+  .features {
+    background-size: cover;
+    .features_clickies {
+      padding-bottom: 60px;
+      text-align: center;
+      img {
+        width: 15%;
+        padding-top: 0px;
+      }
+      .clickies-contactlist, .clickies-music, .clickies-gallery { margin: 10px 0; }
+    } /* .features-clickies */
+  } /* .features */
+  .checkout {
+    h2 { padding: 50px 0; }
+    img { padding-left: 10px  !important; }
+    padding-bottom: 60px;
+
+  } /* .checkout */
+  .screenshots {
+    #screenshot-slider-sm { text-align: center; }
+    h2 {
+      position: relative;
+      left: -15px;
+      padding: 60px 0px  !important;
+    }
+  } /* .screenshots */
+  .testimonial {
+    padding: 60px 0 20px 0  !important;
+    img { margin: 0 auto; }
+    .testimonial-name {
+      top: -15px !important;
+      text-align: center;
+    }
+    blockquote { p { margin-left: 0 !important; } }
+  } /* .testimonial */
+
+  .support {
+    h2 { font-size: 2.5em  !important; }
+    h3 { padding-bottom: 30px !important; }
+    padding: 30px 0 !important;
+  }
+
+  .newsletter_wrap {
+    background-size: cover;
+      .newsletter_email_box { width: 70% !important; }
+      .newsletter_email_input {
+        margin: 0 auto !important;
+        .newsletter_button {
+          position: relative;
+          left: 72%  !important;
+        }
+      }
+  } /* .newsletter_wrap */
+
+  .blog_wrap {
+    background-size: cover;
+    .blog-entry {
+      width: 100%  !important;
+    }
+  }
+
+  .footer_wrap {
+    footer {
+      .text { width: 100%; }
+      input {
+        left: 0;
+        width: 100%;
+      }
+      textarea { width: 100%; }
+    }
+  }
+} /* col-xs */
+
+@include col-sm {
+  .header_app { padding-top: 0 !important; }
+  header {
+    padding: 80px 0;
+    text-align: center;
+    .phones {
+      margin: 0 auto;
+      width: 50%;
+      padding-bottom: 30px;
+    }
+    .hello {
+      h1 { font-size: 2.5em; }
+      p { padding-top: 30px; }
+    }
+    .download { margin-top: 100px; }
+    .dlbtns { padding-top: 10px; }
+    .appstore, .googleplay {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+  .features {
+    background-size: cover;
+    .features_clickies {
+      padding-bottom: 60px;
+      text-align: center;
+      img {
+        width: 15%;
+        padding-top: 0px;
+      }
+      .clickies-contactlist, .clickies-music, .clickies-gallery { margin: 10px 0; }
+    } /* .features-clickies */
+  } /* .features */
+  .checkout {
+    h2 { padding: 50px 0; }
+    img { padding-left: 10px  !important; }
+    padding-bottom: 60px;
+
+  } /* .checkout */
+  .screenshots {
+    #screenshot-slider-sm { text-align: center; }
+    h2 {
+      position: relative;
+      left: -15px;
+      padding: 60px 0px  !important;
+    }
+  } /* .screenshots */
+  .testimonial {
+    padding: 60px 0 20px 0  !important;
+    img { margin: 0 auto; }
+    .testimonial-name {
+      top: -15px !important;
+      text-align: center;
+    }
+    blockquote { p { margin-left: 0 !important; } }
+  } /* .testimonial */
+
+  .support { padding: 30px 0 !important; }
+
+  .newsletter_wrap {
+    background-size: cover;
+    .newsletter_email_box {
+      width: 70% !important;
+    }
+    .newsletter_email_input {
+      margin: 0 auto !important;
+      .newsletter_button {
+        position: relative;
+        left: 72%  !important;
+      }
+    }
+  } /* .newsletter_wrap */
+
+  .blog_wrap {
+    background-size: cover;
+    .blog-entry {
+      width: 100%  !important;
+    }
+  }
+
+  .footer_wrap {
+    footer {
+      .text { width: 100%; }
+      input {
+        left: 0;
+        width: 100%;
+      }
+      textarea { width: 100%; }
+    }
+  }
+} /* col-sm */

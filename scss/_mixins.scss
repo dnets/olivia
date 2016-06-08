@@ -1,18 +1,20 @@
-@import "_variables";
-
-@mixin small {
-  @media #{$breakpoint-small} {
-    @content;
-  }
+@mixin col-xs() {
+    @media (max-width: 767px) {
+        @content;
+    }
 }
-@mixin medium {
-  @media #{$breakpoint-medium} {
-    @content;
-  }
+@mixin col-sm() {
+    @media (min-width: 768px) and (max-width: 991px) {
+        @content;
+    }
 }
-
-@mixin large {
-  @media #{$breakpoint-large} {
-    @content;
-  }
+@mixin col-md() {
+    @media (min-width: 992px) and (max-width: 1199px) {
+        @content;
+    }
+}
+@mixin col-lg() {
+    @media (min-width: 1200px) {
+        @content;
+    }
 }
