@@ -14,3 +14,20 @@ A HTML5 implementation of Shahin Srowar's Olivia design. Original design had no 
 - Twitter Bootstrap
 - FontAwesome
 - lightslider.js
+- npm
+- bower
+
+## How to serve?
+
+There are number of dependencies that are required to set up the development environment, install them using
+
+```
+npm install
+bower install
+```
+
+To hookup browser-reload and start serving on localhost just type:
+
+```
+gulp
+```
