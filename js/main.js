@@ -1,4 +1,4 @@
-$('#screenshot-slider-lg').lightSlider({
+$('#screenshot-slider').lightSlider({
   item: 1,
   controls: false,
 });
@@ -19,7 +19,7 @@ $('#blog-slider').lightSlider({
   controls: false,
 });
 
-$('.clickies_contactlist')
+$('.clickies-contactlist img')
   .mouseover(function() {
     $(this).attr('src', '../img/features-contact-hover.png');
   })
@@ -27,7 +27,7 @@ $('.clickies_contactlist')
     $(this).attr('src', '../img/features-contact-normal.png');
 });
 
-$('.clickies_listen')
+$('.clickies-music img')
   .mouseover(function() {
     $(this).attr('src', '../img/features-listen-hover.png');
   })
@@ -35,7 +35,7 @@ $('.clickies_listen')
     $(this).attr('src', '../img/features-listen-normal.png');
 });
 
-$('.clickies_gallery')
+$('.clickies-gallery img')
   .mouseover(function() {
     $(this).attr('src', '../img/features-gal-hover.png');
   })

@@ -1,3 +1,8 @@
+@mixin col-xs-sm() {
+    @media (max-width: 991px) {
+        @content;
+    }
+}
 @mixin col-xs() {
     @media (max-width: 767px) {
         @content;

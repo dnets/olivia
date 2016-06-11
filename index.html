@@ -1,755 +1,748 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- bower:css -->
-    <!-- endbower -->
-    <meta charset="utf-8">
-    <!--<meta name="viewport" content="width=device-width">-->
-    <title>Olivia</title>
-    <!-- Bootstrap -->
-    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- lightslider -->
-    <link type="text/css" rel="stylesheet" href="./css/lightslider.css" />
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="./css/fontawesome/css/font-awesome.min.css">
-    <!-- Local -->
-    <link rel="stylesheet" href="css/style.css" media="all">
+<head>
+  <!-- bower:css -->
+  <!-- endbower -->
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width">-->
+  <title>Olivia</title>
+  <!-- Bootstrap -->
+  <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- lightslider -->
+  <link type="text/css" rel="stylesheet" href="./css/lightslider.css" />
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./css/fontawesome/css/font-awesome.min.css">
+  <!-- Local style-->
+  <link rel="stylesheet" href="css/style.css" media="all">
+</head>
 
-  </head>
-  <body>
-    <div class="visible-xs visible-sm">
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <div class="navbar-brand">
-              <img class="" src="./img/header-olivia-logo.png" alt="Olivia logo" width="155" height="58">
-            </div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
+<body>
+<nav class="visible-xs visible-sm navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        <img class="" src="./img/header-olivia-logo.png" alt="Olivia logo" width="155" height="58">
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="#home">home</a></li>
-              <li><a href="#features">feature</a></li>
-              <li><a href="#testimonial">testimonial</a></li>
-              <li><a href="#blog">blog</a></li>
-              <li><a href="#newsletter">newsletter</a></li>
-              <li><a href="#contact">contact</a></li>
-            </ul>
-          </div>
-        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="#home">home</a></li>
+        <li><a href="#features">feature</a></li>
+        <li><a href="#testimonial">testimonial</a></li>
+        <li><a href="#blog">blog</a></li>
+        <li><a href="#newsletter">newsletter</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="container-fluid">
+  <div class="container">
+    <a name="home"></a>
+    <div class="row hidden-xs hidden-sm">
+      <div class="logo col-md-3">
+        <img src="./img/header-olivia-logo.png" alt="Olivia logo" width="155" height="58">
+      </div>
+      <nav class="col-md-9">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#features">feature</a></li>
+          <li><a href="#testimonial">testimonial</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#newsletter">newsletter</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
       </nav>
     </div>
 
-    <header class="container-fluid">
-      <div class="container">
-        <a name="home"></a>
-        <div class="row hidden-xs hidden-sm">
-          <div class="logo col-md-3">
-            <img src="./img/header-olivia-logo.png" alt="Olivia logo" width="155" height="58">
-          </div>
-          <nav class="col-md-9">
-            <ul>
-              <li><a href="#home">home</a></li>
-              <li><a href="#features">feature</a></li>
-              <li><a href="#testimonial">testimonial</a></li>
-              <li><a href="#blog">blog</a></li>
-              <li><a href="#newsletter">newsletter</a></li>
-              <li><a href="#contact">contact</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="header_app">
-          <div class="col-md-6 col-sm-12">
-            <img class="phones img-responsive" src="./img/header-iphone.png" alt="App on phone">
-          </div>
-
-          <div class="col-md-6">
-            <div class="hello">
-              <h1>Hello & Welcome to Olivia</h1>
-              <p>Compellingly fashion enterprise-wide services before client-based outsourcing. Enthusiastically reinvent inexpensive innovation rather than collaborative expertise. Synergistically communicate equity invested markets for tactical portals. </p>
-
-              <div class="download">
-                <h2>Download for free</h2>
-                <div class="dlbtns">
-                  <a href=""><img class="appstore" src="./img/header-appstore.png" alt="Get app on App Store"></a>
-                  <a href=""><img class="googleplay" src="./img/header-google-play.png" alt="Get app on Google play"></a>
-                </div>
-              </div>
+    <div class="header-app">
+      <div class="col-md-6 col-sm-12">
+        <img class="phones img-responsive" src="./img/header-iphone.png" alt="App on phone">
+      </div>
+      <div class="col-md-6">
+        <div class="hello">
+          <h1>Hello & Welcome to Olivia</h1>
+          <p>Compellingly fashion enterprise-wide services before client-based outsourcing. Enthusiastically reinvent inexpensive innovation rather than collaborative expertise. Synergistically communicate equity invested markets for tactical portals. </p>
+          <div class="download">
+            <h2>Download for free</h2>
+            <div class="dlbtns">
+              <a href=""><img class="appstore" src="./img/header-appstore.png" alt="Get app on App Store"></a>
+              <a href=""><img class="googleplay" src="./img/header-google-play.png" alt="Get app on Google play"></a>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </div>
+</header>
 
-    <section class="container-fluid features">
-      <div class="container">
-        <a name="features"></a>
-        <div class="row-fluid col-md-12 feature_header">
-          <h1>Amazing Features</h1>
-        </div>
-
-        <div class="row col-md-12">
-          <p>Authoritatively grow cross-platform web services rather than an expanded array of intellectual capital. Objectively disseminate clicks-and-mortar metrics vis-a-vis enterprise channels. Proactively strategize extensible value for distributed value. Continually whiteboard high-payoff experiences for and clicks leadership skills. Competently iterate dynamic results without team driven synergy.</p>
-        </div>
-
-        <div class="row features_clickies">
-          <div class="col-md-4 col-xs-12 clickies-contactlist">
-            <img class="clickies_contactlist" src="./img/features-contact-normal.png" alt=""/>
-            <h3>Full Contactlist</h3>
-            <p>Professionally iterate client-centric total linkage without client-centric metrics. Objective intellectual capital. </p>
-          </div>
-
-          <div class="col-md-4 col-xs-12 clickies-music">
-            <img src="./img/features-listen-normal.png" alt=""/>
-            <h3>Listen Music</h3>
-            <p>Efficiently monetize compelling processes with integrated methods of empowerment plug-and-play channels.</p>
-          </div>
-
-          <div class="col-md-4 col-xs-12 clickies-gallery">
-            <img src="./img/features-gal-normal.png" alt=""/>
-            <h3>Image Gallery</h3>
-            <p>Rapidiously whiteboard 24/7 experiences and economically sound intellectual capital missionsystems. </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid checkout_wrap">
-      <div class="container checkout">
-        <a name="checkout"></a>
-        <div class="row col-md-12">
-          <h2>Check out our newapp</h2>
-        </div>
-        <div class="row col-md-6 col-xs-12">
-
-          <div class="col-md-2 col-xs-2">
-            <img src="./img/checkout-watch.png" alt="bullet_watch">
-          </div>
-          <div class="col-md-10 col-xs-10">
-            <h4>Credibly deliver team driven value for user-centric products</h4>
-            <p>Credibly deliver team driven value for user-centric products efficiently target enterprise web services via extensive data monotonectally develop cross functional niches via extensive.</p>
-          </div>
-
-          <div class="col-md-2 col-xs-2">
-            <img src="./img/checkout-rocket.png" alt="bullet_rocket">
-          </div>
-          <div class="col-md-10 col-xs-10">
-            <h4>Synergistically mesh cross-media process </h4>
-            <p>Energistically myocardinate competitive niche markets and go forward quality vectors. Energistically morph cross-platform  harness sustainable interfaces without emerging platforms.</p>
-          </div>
-
-          <div class="col-md-2 col-xs-2">
-            <img src="./img/checkout-gear.png" alt="bullet_gear">
-          </div>
-          <div class="col-md-10 col-xs-10">
-            <h4>Professionally actualize functional e-markets</h4>
-            <p>Credibly deliver team driven value for user-centric products efficiently target enterprise web services via extensive data monotonectally develop cross functional niches via extensive.</p>
-          </div>
-
-        </div>
-        <div class="col-md-6 hidden-xs hidden-sm">
-          <img id="phone_hand" src="./img/checkout-phone.png" alt="Check out our new app">
-        </div>
-
-      </div>
-    </section>
-
-    <section class="container-fluid screenshots_wrap">
-      <div class="container screenshots">
-        <a name="screenshots"></a>
-        <h2>Screenshots</h2>
-        <div class="row-fluid col-md-12 hidden-xs hidden-sm">
-          <ul id="screenshot-slider-lg">
-            <li><img class="" src="./img/screenshots-1.png" alt="Screenshot 4" /></li>
-            <li><img class="" src="./img/screenshots-2.png" alt="Screenshot 2" /></li>
-          </ul>
-        </div>
-
-        <div class="row col-xs-12 visible-xs visible-sm">
-          <ul id="screenshot-slider-sm">
-            <li><img class="" src="./img/screenshot1-1.jpg" alt="Screenshot 1"></li>
-            <li><img class="" src="./img/screenshot1-2.jpg" alt="Screenshot 2"></li>
-            <li><img class="" src="./img/screenshot1-3.jpg" alt="Screenshot 3"></li>
-            <li><img class="" src="./img/screenshot1-4.jpg" alt="Screenshot 4"></li>
-            <li><img class="" src="./img/screenshot1-2.jpg" alt="Screenshot 2"></li>
-            <li><img class="" src="./img/screenshot1-1.jpg" alt="Screenshot 1"></li>
-            <li><img class="" src="./img/screenshot1-4.jpg" alt="Screenshot 4"></li>
-            <li><img class="" src="./img/screenshot1-3.jpg" alt="Screenshot 3"> </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid testimonial_wrap">
-      <a name="testimonial"></a>
-      <div class="container testimonial">
-        <div class="row-fluid col-md-12">
-          <ul id="testimonial-slider">
-            <li class="row-fluid">
-              <div class="col-md-3 col-xs-12 text-center"><img src="./img/testimonial-face-1.png" alt="Lura MOORE"></div>
-              <div class="col-md-9 col-xs-12 testimonial_quote">
-                <blockquote>
-                  <div class="quote"></div>
-                  <p>Collaboratively facilitate team driven products whereas cross functional customer service. Compellingly integrate corporate interfaces vis-a-vis cutting-edge convergence. Dynamically build prospective e-tailers whereas accurate innovation. Assertively architect.</p>
-                  <div class="backquote"></div>
-                </blockquote>
-                <div class="testimonial-name">
-                  <h3>Lura MOORE</h3>
-                  <h3>CEO, FastTech</h3>
-                </div>
-              </div>
-            </li>
-
-            <li class="row-fluid">
-              <div class="col-md-3 col-xs-12 text-center"><img src="./img/testimonial-face-2.png" alt="Joseph Barnna"></div>
-              <div class="col-md-9 col-xs-12 testimonial_quote">
-                <blockquote>
-                  <div class="quote"></div>
-                  <p>
-                  Rapidiously administrate distinctive manufactured products and ethical architectures. Objectively reintermediate prospective resources with cost effective deliverables. Credibly transform web-enabled data and superior processes. Completely.
-                  <div class="backquote"></div>
-                  </p>
-                </blockquote>
-                <div class="testimonial-name">
-                  <h3>Joghn BARNNA</h3>
-                  <h3>Manager, One Step</h3>
-                </div>
-              </div>
-            </li>
-
-            <li class="row-fluid">
-              <div class="col-md-3 col-xs-12 text-center"><img src="./img/testimonial-face-3.png" alt="Charles Darwin"></div>
-              <div class="col-md-9 col-xs-12 testimonial_quote">
-                <blockquote>
-                  <div class="quote"></div>
-                  <p>
-                  Objectively optimize seamless portals before highly efficient initiatives. Synergistically recaptiualize superior niches rather than scalable results. Quickly extend interoperable e-business for cooperative scenarios. Progressively facilitate frictionless.
-                  </p>
-                  <div class="backquote"></div>
-                </blockquote>
-                <div class="testimonial-name">
-                  <h3>Charles DARWIN</h3>
-                  <h3>CEO, BlueStar</h3>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid support_wrap">
-      <div class="container support">
-        <a name="support"></a>
-        <div class="row-fluid support_header col-md-12">
-          <h2>Ask questions for Application Support</h2>
-          <h3><span class="support_email"><a href="mailto:info@olivia.com">info@olivia.com</a></span> OR <span class="support_phone">+01 125 485 968</span></h3>
-        </div>
-
-        <div class="row hidden-xs hidden-sm">
-          <div class="col-md-3 col-xs-12 support_description support_top">
-            <h5 class="support_name">Micheal RUSH</h5>
-            <h5 class="support_title">Founder & CEO</h5>
-            <hr>
-            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-            <div class="support_icons">
-              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-12"><img class="support_face" src="./img/support-face-1.png" alt=""></div>
-          <div class="col-md-3 text-right"><img class="support_face" src="./img/support-face-3.png" alt=""></div>
-          <div class="col-md-3 support_description">
-            <h5 class="support_name">Paul MCCARTNEY</h5>
-            <h5 class="support_title">Customer Relation Officer</h5>
-            <hr>
-            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-            <div class="support_icons">
-              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row hidden-xs hidden-sm support_bottom">
-          <div class="col-md-3 support_description">
-            <h5 class="support_name">Louis PASTEUR</h5>
-            <h5 class="support_title">Sales Executive</h5>
-            <hr>
-            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-            <div class="support_icons">
-              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-            </div>
-          </div>
-
-          <div class="col-md-3"><img class="support_face" src="./img/support-face-2.png"></div>
-          <div class="col-md-3 text-right"><img class="support_face" src="./img/support-face-4.png"></div>
-          <div class="col-md-3 support_description">
-            <h5 class="support_name">John LENNON</h5>
-            <h5 class="support_title">Technical Executive</h5>
-            <hr>
-            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-            <div class="support_icons">
-              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="visible-xs visible-sm">
-          <ul id="testimonial-slider-sm">
-              <li>
-                <div class="col-md-3 col-xs-12 text-center"><img class="support_face" src="./img/support-face-1.png" alt=""></div>
-                <div class="col-md-3 col-xs-12 support_description support_top">
-                  <h5 class="support_name text-center">Micheal RUSH</h5>
-                  <h5 class="support_title text-center">Founder & CEO</h5>
-                  <hr>
-                  <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-                  <div class="support_icons text-center">
-                    <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="col-md-3 text-center"><img class="support_face" src="./img/support-face-3.png" alt=""></div>
-                <div class="col-md-3 text-center support_description">
-                  <h5 class="support_name">Paul MCCARTNEY</h5>
-                  <h5 class="support_title">Customer Relation Officer</h5>
-                  <hr>
-                  <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-                  <div class="support_icons text-center">
-                    <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="col-md-3 text-center"><img class="support_face" src="./img/support-face-2.png"></div>
-                <div class="col-md-3 text-center support_description">
-                  <h5 class="support_name">Louis PASTEUR</h5>
-                  <h5 class="support_title">Sales Executive</h5>
-                  <hr>
-                  <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-                  <div class="support_icons text-center">
-                    <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="col-md-3 text-center"><img class="support_face" src="./img/support-face-4.png"></div>
-                <div class="col-md-3 text-center support_description">
-                  <h5 class="support_name">John LENNON</h5>
-                  <h5 class="support_title">Technical Executive</h5>
-                  <hr>
-                  <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
-                  <div class="support_icons text-center">
-                    <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
-                  </div>
-                </div>
-              </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid newsletter_wrap">
-      <div class="container newsletter">
-        <a name="newsletter"></a>
-        <div class="row-fluid col-md-12">
-          <h2>Newsletter</h2>
-          <p>Rapidiously repurpose compelling action items through equity invested process improvements. Seamlessly mesh virtual manufactured products before next-generation growth strategies. Assertively disintermediate pandemic e-services and enabled. Quickly brand extensible leadership for highly efficient systems. Monotonectally strategize cross functional with sticky technologies.</p>
-        </div>
-        <div class="row col-md-12 newsletter_subscribe">
-          <div class="newsletter_email_input">
-            <div class="newsletter_email_box"></div>
-            <div class="newsletter_email_icon"></div>
-            <input class="newsletter_input col-xs-12" type="text" name="" placeholder="Enter your e-mail"></input>
-            <input class="newsletter_button col-xs-12" type="button" name="subscribe_button" value="SUBSCRIBE"></input>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="container-fluid blog_wrap">
-      <section class="container blog">
-        <a name="blog"></a>
-        <div class="row">
-          <h2>Olivia Blog Post</h2>
-          <ul id="blog-slider">
-            <li>
-              <div class="row col-md-5">
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">24</div>
-                    <div class="header-my">Mar</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Extremely we promotion remainder</h3>
-                    <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">25</div>
-                    <div class="header-my">Mar</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Seamlessly orchestrate highly efficient</h3>
-                    <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">26</div>
-                    <div class="header-my">Mar</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Efficiently deploy corporate global</h3>
-                    <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-              </div>
-              <div class="row col-md-5 col-md-offset-2">
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">02</div>
-                    <div class="header-my">June</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Extremely we promotion remainder</h3>
-                    <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">06</div>
-                    <div class="header-my">June</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Seamlessly orchestrate highly efficient</h3>
-                    <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">08</div>
-                    <div class="header-my">June</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Efficiently deploy corporate global</h3>
-                    <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row col-md-5">
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">10</div>
-                    <div class="header-my">June</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Extremely we promotion remainder</h3>
-                    <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">13</div>
-                    <div class="header-my">June</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Seamlessly orchestrate highly efficient</h3>
-                    <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">28</div>
-                    <div class="header-my">June</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Efficiently deploy corporate global</h3>
-                    <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-              </div>
-              <div class="row col-md-5 col-md-offset-2">
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">06</div>
-                    <div class="header-my">July</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Extremely we promotion remainder</h3>
-                    <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">10</div>
-                    <div class="header-my">July</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Seamlessly orchestrate highly efficient</h3>
-                    <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">12</div>
-                    <div class="header-my">Aug</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Efficiently deploy corporate global</h3>
-                    <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row col-md-5">
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">15</div>
-                    <div class="header-my">Sep</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Extremely we promotion remainder</h3>
-                    <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">24</div>
-                    <div class="header-my">Sep</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Seamlessly orchestrate highly efficient</h3>
-                    <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">02</div>
-                    <div class="header-my">Oct</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Efficiently deploy corporate global</h3>
-                    <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-              </div>
-              <div class="row col-md-5 col-md-offset-2">
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">09</div>
-                    <div class="header-my">Oct</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Extremely we promotion remainder</h3>
-                    <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">14</div>
-                    <div class="header-my">Oct</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Seamlessly orchestrate highly efficient</h3>
-                    <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-                <div class="blog-entry">
-                  <div class="blog-header">
-                    <div class="tick"></div>
-                    <div class="header-d">20</div>
-                    <div class="header-m">Oct</div>
-                    <div class="header-y">2015</div>
-                  </div>
-                  <div class="blog-body">
-                    <h3>Efficiently deploy corporate global</h3>
-                    <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
-                    <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+<section class="container-fluid features">
+  <div class="container">
+    <a name="features"></a>
+    <div class="row-fluid col-md-12 features-header">
+      <h1>Amazing Features</h1>
+    </div>
+    <div class="row col-md-12">
+      <p>Authoritatively grow cross-platform web services rather than an expanded array of intellectual capital. Objectively disseminate clicks-and-mortar metrics vis-a-vis enterprise channels. Proactively strategize extensible value for distributed value. Continually whiteboard high-payoff experiences for and clicks leadership skills. Competently iterate dynamic results without team driven synergy.</p>
     </div>
 
-    <div class="container-fluid footer_wrap">
-      <div class="container">
-        <footer>
-          <a name="contact"></a>
-          <h2>Get in touch</h2>
-          <div class="text">
-            <p>Efficiently scale state of the art e-tailers vis-a-vis business action items. Objectively communicate multifunctional customer service through proactive e-business. Proactively transition strategic leadership skills vis-a-vis state of the art quality vectors.</p>
-          </div>
+    <div class="row features-icons">
+      <div class="col-md-4 col-xs-12 clickies-contactlist">
+        <img src="./img/features-contact-normal.png" alt=""/>
+        <h3>Full Contactlist</h3>
+        <p>Professionally iterate client-centric total linkage without client-centric metrics. Objective intellectual capital. </p>
+      </div>
 
-          <div class="row col-md-12">
-            <form action="">
-              <input type="text" name="" id="" placeholder="First Name" />
-              <input type="text" name="" id="" placeholder="Last Name" />
-              <input type="text" name="" id="" placeholder="Email Address" />
-              <input type="text" name="" id="" placeholder="Tel. Number" />
-              <br>
-              <textarea rows="10" name="" id="" placeholder="Comments"></textarea>
-              <br>
-              <button type="submit">SUBMIT YOUR MESSAGE</button>
-            </form>
-          </div>
-          <div class="row col-md-12">
-            <div id="footer_icons">
-              <a href="#">
-                <div class="footer-icon">
-                  <i class="fa fa-lg fa-facebook"></i>
-                </div>
-              </a>
-              <a href="#">
-                <div class="footer-icon">
-                  <i class="fa fa-lg fa-twitter"></i>
-                </div>
-              </a>
-              <a href="#">
-                <div class="footer-icon">
-                  <i class="fa fa-lg fa-pinterest"></i>
-                </div>
-              </a>
-              <a href="#">
-                <div class="footer-icon">
-                  <i class="fa fa-lg fa-google-plus"></i>
-                </div>
-              </a>
-              <a href="#">
-                <div class="footer-icon">
-                  <i class="fa fa-lg fa-dribbble"></i>
-                </div>
-              </a>
+      <div class="col-md-4 col-xs-12 clickies-music">
+        <img src="./img/features-listen-normal.png" alt=""/>
+        <h3>Listen Music</h3>
+        <p>Efficiently monetize compelling processes with integrated methods of empowerment plug-and-play channels.</p>
+      </div>
+
+      <div class="col-md-4 col-xs-12 clickies-gallery">
+        <img src="./img/features-gal-normal.png" alt=""/>
+        <h3>Image Gallery</h3>
+        <p>Rapidiously whiteboard 24/7 experiences and economically sound intellectual capital missionsystems. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid checkout-wrap">
+  <div class="container checkout">
+
+    <a name="checkout"></a>
+    <div class="row col-md-12">
+      <h2>Check out our newapp</h2>
+    </div>
+    <div class="row col-md-6 col-xs-12">
+
+      <div class="col-md-2 col-xs-2">
+        <img src="./img/checkout-watch.png" alt="bullet-watch">
+      </div>
+      <div class="col-md-10 col-xs-10">
+        <h4>Credibly deliver team driven value for user-centric products</h4>
+        <p>Credibly deliver team driven value for user-centric products efficiently target enterprise web services via extensive data monotonectally develop cross functional niches via extensive.</p>
+      </div>
+
+      <div class="col-md-2 col-xs-2">
+        <img src="./img/checkout-rocket.png" alt="bullet-rocket">
+      </div>
+      <div class="col-md-10 col-xs-10">
+        <h4>Synergistically mesh cross-media process </h4>
+        <p>Energistically myocardinate competitive niche markets and go forward quality vectors. Energistically morph cross-platform  harness sustainable interfaces without emerging platforms.</p>
+      </div>
+
+      <div class="col-md-2 col-xs-2">
+        <img src="./img/checkout-gear.png" alt="bullet-gear">
+      </div>
+      <div class="col-md-10 col-xs-10">
+        <h4>Professionally actualize functional e-markets</h4>
+        <p>Credibly deliver team driven value for user-centric products efficiently target enterprise web services via extensive data monotonectally develop cross functional niches via extensive.</p>
+      </div>
+
+    </div>
+    <div class="col-md-6 hidden-xs hidden-sm">
+      <img id="phone-hand" src="./img/checkout-phone.png" alt="Check out our new app">
+    </div>
+
+  </div>
+</section>
+
+<section class="container-fluid screenshots-wrap">
+  <div class="container screenshots">
+    <a name="screenshots"></a>
+    <h2>Screenshots</h2>
+    <div class="row-fluid col-md-12 hidden-xs hidden-sm">
+      <ul id="screenshot-slider">
+        <li><img class="" src="./img/screenshots-1.png" alt="Screenshot 4" /></li>
+        <li><img class="" src="./img/screenshots-2.png" alt="Screenshot 2" /></li>
+      </ul>
+    </div>
+
+    <div class="row col-xs-12 visible-xs visible-sm">
+      <ul id="screenshot-slider-sm">
+        <li><img class="" src="./img/screenshot1-1.jpg" alt="Screenshot 1"></li>
+        <li><img class="" src="./img/screenshot1-2.jpg" alt="Screenshot 2"></li>
+        <li><img class="" src="./img/screenshot1-3.jpg" alt="Screenshot 3"></li>
+        <li><img class="" src="./img/screenshot1-4.jpg" alt="Screenshot 4"></li>
+        <li><img class="" src="./img/screenshot1-2.jpg" alt="Screenshot 2"></li>
+        <li><img class="" src="./img/screenshot1-1.jpg" alt="Screenshot 1"></li>
+        <li><img class="" src="./img/screenshot1-4.jpg" alt="Screenshot 4"></li>
+        <li><img class="" src="./img/screenshot1-3.jpg" alt="Screenshot 3"> </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid testimonial-wrap">
+  <a name="testimonial"></a>
+  <div class="container testimonial">
+    <div class="row-fluid col-md-12">
+      <ul id="testimonial-slider">
+        <li class="row-fluid">
+          <div class="col-md-3 col-xs-12 text-center"><img src="./img/testimonial-face-1.png" alt="Lura MOORE"></div>
+          <div class="col-md-9 col-xs-12 testimonial-quote">
+            <blockquote>
+              <div class="quote"></div>
+              <p>Collaboratively facilitate team driven products whereas cross functional customer service. Compellingly integrate corporate interfaces vis-a-vis cutting-edge convergence. Dynamically build prospective e-tailers whereas accurate innovation. Assertively architect.</p>
+              <div class="backquote"></div>
+            </blockquote>
+            <div class="testimonial-name">
+              <h3>Lura MOORE</h3>
+              <h3>CEO, FastTech</h3>
             </div>
-          <div class="row col-md-12">
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">&copy 2015 Copyright - Olivia</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">API License Agreement</a></li>
-                <li><a href="#">Design by Shahin Srowar</a></li>
-              </ul>
+          </div>
+        </li>
+
+        <li class="row-fluid">
+          <div class="col-md-3 col-xs-12 text-center"><img src="./img/testimonial-face-2.png" alt="Joseph Barnna"></div>
+          <div class="col-md-9 col-xs-12 testimonial-quote">
+            <blockquote>
+              <div class="quote"></div>
+              <p>
+              Rapidiously administrate distinctive manufactured products and ethical architectures. Objectively reintermediate prospective resources with cost effective deliverables. Credibly transform web-enabled data and superior processes. Completely.
+              <div class="backquote"></div>
+              </p>
+            </blockquote>
+            <div class="testimonial-name">
+              <h3>Joghn BARNNA</h3>
+              <h3>Manager, One Step</h3>
             </div>
           </div>
-        </footer>
+        </li>
+
+        <li class="row-fluid">
+          <div class="col-md-3 col-xs-12 text-center"><img src="./img/testimonial-face-3.png" alt="Charles Darwin"></div>
+          <div class="col-md-9 col-xs-12 testimonial-quote">
+            <blockquote>
+              <div class="quote"></div>
+              <p>
+              Objectively optimize seamless portals before highly efficient initiatives. Synergistically recaptiualize superior niches rather than scalable results. Quickly extend interoperable e-business for cooperative scenarios. Progressively facilitate frictionless.
+              </p>
+              <div class="backquote"></div>
+            </blockquote>
+            <div class="testimonial-name">
+              <h3>Charles DARWIN</h3>
+              <h3>CEO, BlueStar</h3>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid support-wrap">
+  <div class="container support">
+    <a name="support"></a>
+    <div class="row-fluid support-header col-md-12">
+      <h2>Ask questions for Application Support</h2>
+      <h3><span class="support-email"><a href="mailto:info@olivia.com">info@olivia.com</a></span> OR <span class="support-phone">+01 125 485 968</span></h3>
+    </div>
+
+    <div class="row hidden-xs hidden-sm">
+      <div class="col-md-3 col-xs-12 support-description support-top">
+        <h5 class="support-name">Micheal RUSH</h5>
+        <h5 class="support-title">Founder & CEO</h5>
+        <hr>
+        <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+        <div class="support-icons">
+          <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-12"><img class="support-face" src="./img/support-face-1.png" alt=""></div>
+      <div class="col-md-3 text-right"><img class="support-face" src="./img/support-face-3.png" alt=""></div>
+      <div class="col-md-3 support-description">
+        <h5 class="support-name">Paul MCCARTNEY</h5>
+        <h5 class="support-title">Customer Relation Officer</h5>
+        <hr>
+        <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+        <div class="support-icons">
+          <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+        </div>
       </div>
     </div>
 
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbower -->
-    <script src="./js/lightslider.min.js"></script>
-    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- local -->
-    <script src="./js/main.js"></script>
-  </body>
+    <div class="row hidden-xs hidden-sm support-bottom">
+      <div class="col-md-3 support-description">
+        <h5 class="support-name">Louis PASTEUR</h5>
+        <h5 class="support-title">Sales Executive</h5>
+        <hr>
+        <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+        <div class="support-icons">
+          <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-3"><img class="support-face" src="./img/support-face-2.png"></div>
+      <div class="col-md-3 text-right"><img class="support-face" src="./img/support-face-4.png"></div>
+      <div class="col-md-3 support-description">
+        <h5 class="support-name">John LENNON</h5>
+        <h5 class="support-title">Technical Executive</h5>
+        <hr>
+        <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+        <div class="support-icons">
+          <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="visible-xs visible-sm">
+      <ul id="testimonial-slider-sm">
+        <li>
+          <div class="col-md-3 col-xs-12 text-center"><img class="support-face" src="./img/support-face-1.png" alt=""></div>
+          <div class="col-md-3 col-xs-12 support-description support-top">
+            <h5 class="support-name text-center">Micheal RUSH</h5>
+            <h5 class="support-title text-center">Founder & CEO</h5>
+            <hr>
+            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+            <div class="support-icons text-center">
+              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="col-md-3 text-center"><img class="support-face" src="./img/support-face-3.png" alt=""></div>
+          <div class="col-md-3 text-center support-description">
+            <h5 class="support-name">Paul MCCARTNEY</h5>
+            <h5 class="support-title">Customer Relation Officer</h5>
+            <hr>
+            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+            <div class="support-icons text-center">
+              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="col-md-3 text-center"><img class="support-face" src="./img/support-face-2.png"></div>
+          <div class="col-md-3 text-center support-description">
+            <h5 class="support-name">Louis PASTEUR</h5>
+            <h5 class="support-title">Sales Executive</h5>
+            <hr>
+            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+            <div class="support-icons text-center">
+              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="col-md-3 text-center"><img class="support-face" src="./img/support-face-4.png"></div>
+          <div class="col-md-3 text-center support-description">
+            <h5 class="support-name">John LENNON</h5>
+            <h5 class="support-title">Technical Executive</h5>
+            <hr>
+            <p>Continually coordinate leveraged functional value. Holisticly target stand-alone action items with ethical</p>
+            <div class="support-icons text-center">
+              <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-lg fa-pinterest"></i></a>
+              <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-lg fa-dribbble"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid newsletter-wrap">
+  <div class="container newsletter">
+    <a name="newsletter"></a>
+    <div class="row-fluid col-md-12">
+      <h2>Newsletter</h2>
+      <p>Rapidiously repurpose compelling action items through equity invested process improvements. Seamlessly mesh virtual manufactured products before next-generation growth strategies. Assertively disintermediate pandemic e-services and enabled. Quickly brand extensible leadership for highly efficient systems. Monotonectally strategize cross functional with sticky technologies.</p>
+    </div>
+    <div class="row col-md-12 newsletter-subscribe">
+      <div class="newsletter-email-input">
+        <div class="newsletter-email-box"></div>
+        <div class="newsletter-email-icon"></div>
+        <input class="newsletter-input col-xs-12" type="text" name="" placeholder="Enter your e-mail"></input>
+        <input class="newsletter-button col-xs-12" type="button" name="subscribe-button" value="SUBSCRIBE"></input>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid blog-wrap">
+  <div class="container blog">
+    <a name="blog"></a>
+    <div class="row">
+      <h2>Olivia Blog Post</h2>
+      <ul id="blog-slider">
+        <li>
+          <div class="row col-md-5">
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">24</div>
+                <div class="header-my">Mar</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Extremely we promotion remainder</h3>
+                <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">25</div>
+                <div class="header-my">Mar</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Seamlessly orchestrate highly efficient</h3>
+                <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">26</div>
+                <div class="header-my">Mar</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Efficiently deploy corporate global</h3>
+                <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+          </div>
+          <div class="row col-md-5 col-md-offset-2">
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">02</div>
+                <div class="header-my">June</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Extremely we promotion remainder</h3>
+                <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">06</div>
+                <div class="header-my">June</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Seamlessly orchestrate highly efficient</h3>
+                <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">08</div>
+                <div class="header-my">June</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Efficiently deploy corporate global</h3>
+                <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="row col-md-5">
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">10</div>
+                <div class="header-my">June</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Extremely we promotion remainder</h3>
+                <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">13</div>
+                <div class="header-my">June</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Seamlessly orchestrate highly efficient</h3>
+                <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">28</div>
+                <div class="header-my">June</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Efficiently deploy corporate global</h3>
+                <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+          </div>
+          <div class="row col-md-5 col-md-offset-2">
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">06</div>
+                <div class="header-my">July</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Extremely we promotion remainder</h3>
+                <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">10</div>
+                <div class="header-my">July</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Seamlessly orchestrate highly efficient</h3>
+                <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">12</div>
+                <div class="header-my">Aug</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Efficiently deploy corporate global</h3>
+                <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="row col-md-5">
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">15</div>
+                <div class="header-my">Sep</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Extremely we promotion remainder</h3>
+                <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">24</div>
+                <div class="header-my">Sep</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Seamlessly orchestrate highly efficient</h3>
+                <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">02</div>
+                <div class="header-my">Oct</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Efficiently deploy corporate global</h3>
+                <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+          </div>
+          <div class="row col-md-5 col-md-offset-2">
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">09</div>
+                <div class="header-my">Oct</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Extremely we promotion remainder</h3>
+                <p>Comfort reached views perhaps chamber his six tetract besides add. Moonlight newspaper up he it enjoyment agreeable</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">14</div>
+                <div class="header-my">Oct</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Seamlessly orchestrate highly efficient</h3>
+                <p>Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited views.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+            <div class="blog-entry">
+              <div class="blog-header">
+                <div class="tick"></div>
+                <div class="header-d">20</div>
+                <div class="header-m">Oct</div>
+                <div class="header-y">2015</div>
+              </div>
+              <div class="blog-body">
+                <h3>Efficiently deploy corporate global</h3>
+                <p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears sorry.</p>
+                <a href="http://srowar.com/lowerbacklink"><i class="fa fa-globe"></i>http://srowar.com/lowerbacklink</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="container-fluid footer-wrap">
+  <div class="container">
+    <a name="contact"></a>
+    <h2>Get in touch</h2>
+    <div class="text">
+      <p>Efficiently scale state of the art e-tailers vis-a-vis business action items. Objectively communicate multifunctional customer service through proactive e-business. Proactively transition strategic leadership skills vis-a-vis state of the art quality vectors.</p>
+    </div>
+
+    <div class="row col-md-12">
+      <form action="">
+        <input type="text" name="" id="firstname" placeholder="First Name" />
+        <input type="text" name="" id="lastname" placeholder="Last Name" />
+        <input type="text" name="" id="" placeholder="Email Address" />
+        <input type="text" name="" id="" placeholder="Tel. Number" />
+        <br>
+        <textarea rows="10" name="" id="" placeholder="Comments"></textarea>
+        <br>
+        <button type="submit">SUBMIT YOUR MESSAGE</button>
+      </form>
+    </div>
+    <div class="row col-md-12 footer-icons">
+      <a href="#">
+        <div class="footer-icon">
+          <i class="fa fa-lg fa-facebook"></i>
+        </div>
+      </a>
+      <a href="#">
+        <div class="footer-icon">
+          <i class="fa fa-lg fa-twitter"></i>
+        </div>
+      </a>
+      <a href="#">
+        <div class="footer-icon">
+          <i class="fa fa-lg fa-pinterest"></i>
+        </div>
+      </a>
+      <a href="#">
+        <div class="footer-icon">
+          <i class="fa fa-lg fa-google-plus"></i>
+        </div>
+      </a>
+      <a href="#">
+        <div class="footer-icon">
+          <i class="fa fa-lg fa-dribbble"></i>
+        </div>
+      </a>
+    </div>
+    <div class="row col-md-12 footer-links">
+      <ul>
+        <li><a href="#">&copy 2015 Copyright - Olivia</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">API License Agreement</a></li>
+        <li><a href="#">Design by Shahin Srowar</a></li>
+        <li><a href="#">HTML by Dmitry Nets</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+<script src="./js/lightslider.min.js"></script>
+<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- local -->
+<script src="./js/main.js"></script>
+
+</body>
 </html>
