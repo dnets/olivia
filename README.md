@@ -8,7 +8,7 @@ Fullsize version | Mobile version
 ---------------- | --------------
 [![Fullsize version](https://raw.githubusercontent.com/dnets/olivia/master/img/olivia-screenshot-thumb.jpg)][ss1] | [![Mobile version](https://raw.githubusercontent.com/dnets/olivia/master/img/olivia-screenshot-mobile-thumb.jpg)][ss2]
 
-[ss1]: https://raw.githubusercontent.com/dnets/olivia/master/img/olivia-screenshot-thumb.jpg
+[ss1]: https://raw.githubusercontent.com/dnets/olivia/master/img/olivia-screenshot.jpg
 [ss2]: https://raw.githubusercontent.com/dnets/olivia/master/img/olivia-screenshot-mobile.jpg
 
 ## What's used?
