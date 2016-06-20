@@ -1,3 +1,4 @@
+
 $('#screenshot-slider').lightSlider({
   item: 1,
   controls: false,
@@ -41,4 +42,20 @@ $('.clickies-gallery img')
   })
   .mouseout(function() {
     $(this).attr('src', '../img/features-gal-normal.png');
+});
+
+// Smooth scrolling
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 });

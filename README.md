@@ -1,7 +1,7 @@
 # Olivia
 ## Description
 
-A HTML5 implementation of Shahin Srowar's Olivia design. Original design had no specification for mobile/tablet, so improvised design decisions were made, such as putting contacts in sliders and using alternative slider for screenshots for Bootstrap's xs and sm breakpoints (<991px).
+A HTML5 implementation of Shahin Srowar's Olivia design. It features multiple responsive sliders and smooth scrolling anchor-based navigation. Original design had no specification for mobile/tablet, so improvised design decisions were made, such as putting contacts in sliders and swapping alternative slider for screenshots for Bootstrap's xs and sm breakpoints (<991px).
 
 ## Screenshots
 Fullsize version | Mobile version

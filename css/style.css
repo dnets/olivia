@@ -14,12 +14,14 @@ body {
     width: 78px;
     height: 30px; }
   .navbar-default .navbar-nav li a {
-    color: #fff;
+    color: #fff !important;
     background: #a928db;
     text-transform: uppercase;
     -webkit-transition: background 0.5s;
-    transition: background 0.5s; }
+    transition: background 0.5s;
+    text-decoration: none  !important; }
     .navbar-default .navbar-nav li a:hover {
+      text-decoration: none;
       color: #fff;
       background: #b559e0; }
   .navbar-default .navbar-toggle {
@@ -40,7 +42,7 @@ body {
         background-color: #3b434d; }
 
 header {
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/header-bg.jpg");
   color: #fff;
   padding-top: 35px;
   padding-bottom: 70px;
@@ -59,10 +61,10 @@ header {
         /* a */ }
         header nav ul li a {
           font-size: 1.0em;
-          color: #fff;
+          color: #fff !important;
           padding: 8px 15px;
           text-transform: uppercase;
-          text-decoration: none;
+          text-decoration: none  !important;
           border-radius: 20px;
           -webkit-transition: background-color, 0.2s, ease-in-out;
           transition: background-color, 0.2s, ease-in-out; }
@@ -99,7 +101,7 @@ header {
 
 /* header */
 .features {
-  background-image: url("../img/features-bg.png");
+  background-image: url("../img/features-bg.jpg");
   color: #3b434d; }
   .features h1 {
     text-align: center;
@@ -421,7 +423,8 @@ header {
         .blog-wrap .blog .blog-entry .blog-body a {
           color: #3b434d;
           -webkit-transition: color 0.5s;
-          transition: color 0.5s; }
+          transition: color 0.5s;
+          text-decoration: none; }
           .blog-wrap .blog .blog-entry .blog-body a i {
             padding-right: 10px; }
           .blog-wrap .blog .blog-entry .blog-body a:hover {
