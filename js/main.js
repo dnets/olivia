@@ -22,26 +22,26 @@ $('#blog-slider').lightSlider({
 
 $('.clickies-contactlist img')
   .mouseover(function() {
-    $(this).attr('src', '../img/features-contact-hover.png');
+    $(this).attr('src', 'https://dnets.github.io/olivia/img/features-contact-hover.png');
   })
   .mouseout(function() {
-    $(this).attr('src', '../img/features-contact-normal.png');
+    $(this).attr('src', 'https://dnets.github.io/olivia/img/features-contact-normal.png');
 });
 
 $('.clickies-music img')
   .mouseover(function() {
-    $(this).attr('src', '../img/features-listen-hover.png');
+    $(this).attr('src', 'https://dnets.github.io/olivia/img/features-listen-hover.png');
   })
   .mouseout(function() {
-    $(this).attr('src', '../img/features-listen-normal.png');
+    $(this).attr('src', 'https://dnets.github.io/olivia/img/features-listen-normal.png');
 });
 
 $('.clickies-gallery img')
   .mouseover(function() {
-    $(this).attr('src', '../img/features-gal-hover.png');
+    $(this).attr('src', 'https://dnets.github.io/olivia/img/features-gal-hover.png');
   })
   .mouseout(function() {
-    $(this).attr('src', '../img/features-gal-normal.png');
+    $(this).attr('src', 'https://dnets.github.io/olivia/img/features-gal-normal.png');
 });
 
 // Smooth scrolling
