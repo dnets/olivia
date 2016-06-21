@@ -164,12 +164,13 @@ header {
     .screenshots-wrap .screenshots #screenshot-slider-lg {
       text-align: center; }
     .screenshots-wrap .screenshots .lSSlideOuter .lSPager.lSpg > li a {
+      background: transparent !important;
       border: 2px solid #a928db;
       border-radius: 50%;
       height: 12px;
       width: 12px; }
     .screenshots-wrap .screenshots .lSSlideOuter .lSPager.lSpg > li:hover a, .screenshots-wrap .screenshots .lSSlideOuter .lSPager.lSpg > li.active a {
-      background-color: #a928db; }
+      background-color: #a928db !important; }
     .screenshots-wrap .screenshots .lSpg {
       padding-top: 30px; }
 
@@ -213,12 +214,13 @@ header {
       width: 100%;
       height: 100%; }
     .testimonial-wrap .testimonial .lSSlideOuter .lSPager.lSpg > li a {
+      background: transparent !important;
       border: 2px solid #fff;
       border-radius: 50%;
       height: 12px;
       width: 12px; }
     .testimonial-wrap .testimonial .lSSlideOuter .lSPager.lSpg > li:hover a, .testimonial-wrap .testimonial .lSSlideOuter .lSPager.lSpg > li.active a {
-      background-color: #fff; }
+      background-color: #fff !important; }
     .testimonial-wrap .testimonial .lSpg {
       padding-top: 80px; }
 
