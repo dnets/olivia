@@ -381,6 +381,16 @@ header {
     /* .blog-entry */ }
     .blog-wrap .blog #blog-slider {
       color: #3b434d; }
+    .blog-wrap .blog .lSSlideOuter .lSPager.lSpg > li a {
+      background: transparent !important;
+      border: 2px solid #a928db;
+      border-radius: 50%;
+      height: 12px;
+      width: 12px; }
+    .blog-wrap .blog .lSSlideOuter .lSPager.lSpg > li:hover a, .blog-wrap .blog .lSSlideOuter .lSPager.lSpg > li.active a {
+      background-color: #a928db !important; }
+    .blog-wrap .blog .lSpg {
+      padding-top: 30px; }
     .blog-wrap .blog h2 {
       text-align: center;
       font-size: 60px;

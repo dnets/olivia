@@ -402,6 +402,17 @@ header {
     #blog-slider {
       color: $dark-gray;
     }
+    .lSSlideOuter .lSPager.lSpg > li a {
+      background: rgba(0,0,0,0) !important;
+      border: 2px solid $dark-purple;
+      border-radius: 50%;
+      height: 12px;
+      width: 12px;
+    }
+    .lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+      background-color: $dark-purple  !important;
+    }
+    .lSpg { padding-top: 30px; }
     h2 {
       text-align: center;
       font-size: 60px;
