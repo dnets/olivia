@@ -1,1 +1,2 @@
-baseurl: "http://dnets.github.io/olivia/"
+# url: "http://dnets.github.io/"
+baseurl: "olivia/"
