@@ -643,6 +643,17 @@ footer {
     h2 { font-size: 2.5em  !important; }
     h3 { padding-bottom: 30px !important; }
     padding: 30px 0 !important;
+    .lSSlideOuter .lSPager.lSpg > li a {
+      background: rgba(0,0,0,0) !important;
+      border: 2px solid $dark-purple;
+      border-radius: 50%;
+      height: 12px;
+      width: 12px;
+    }
+    .lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+      background-color: $dark-purple  !important;
+    }
+    .lSpg { padding-top: 30px; }
   } /* .support */
 
   .newsletter-wrap {

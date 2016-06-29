@@ -618,6 +618,16 @@ footer {
       font-size: 2.5em  !important; }
     .support h3 {
       padding-bottom: 30px !important; }
+    .support .lSSlideOuter .lSPager.lSpg > li a {
+      background: transparent !important;
+      border: 2px solid #a928db;
+      border-radius: 50%;
+      height: 12px;
+      width: 12px; }
+    .support .lSSlideOuter .lSPager.lSpg > li:hover a, .support .lSSlideOuter .lSPager.lSpg > li.active a {
+      background-color: #a928db !important; }
+    .support .lSpg {
+      padding-top: 30px; }
   /* .support */
   .newsletter-wrap {
     background-size: cover; }
